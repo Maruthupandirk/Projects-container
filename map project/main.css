@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  position: relative;
+}
+
+#inpdiv {
+    position: absolute;
+    top: 1300px;
+    left: 1200px;
+}
+#selectState {
+    padding: 10px;
+    font-size: x-large;
+
+}
+img {
+  /* position: absolute; */
+}
+#jammu {
+  position: absolute;
+  left: 310px;
+  
+  /* filter: drop-shadow( 6px 6px 6px #f8a100) 
+          drop-shadow(-6px -6px 6px #f8a100);
+          z-index: 50; */
+
+        
+}
+#kashmir {
+  position: absolute;
+  left: 335.5px;
+  top: 117.5px;
+  
+}
+#himachelPradesh {
+  position: absolute;
+  left: 450.5px;
+  top: 238px;
+}
+#punjab {
+  position: absolute;
+  left: 352px;
+  top: 278px;
+  /* transform: rotate(10deg); */
+  /* transform: scale(1.02); */
+  /* filter: drop-shadow( 6px 6px 6px #f8a100) 
+          drop-shadow(-6px -6px 6px #f8a100);
+          ; */
+}
+#uttrakhant {
+  position: absolute;
+  left: 542px;
+  top: 356px;
+  transform: scale(1.04);
+}
+#haryana {
+  position: absolute;
+  left: 382px;
+  top: 374px;
+}
+#Rajasthan {
+  position: absolute;
+  left: 105px;
+  top: 417px;
+}
+#uttra {
+  position: absolute;
+  left: 520px;
+  top: 399px;
+  transform: rotate(-2deg);
+}
+
+#Behar {
+  position: absolute;
+  left: 870px;
+  top: 581px;
+  transform: scaleX(1.04);
+}
+#sikkim {
+  position: absolute;
+  left: 1125px;
+  top: 535px;
+  transform: scaleX(1.04);
+}
+
+#assam {
+  position: absolute;
+  left: 1220px;
+  top: 495px;
+  transform: scaleX(1.04);
+}
+
+#arunachalPradesh {
+  position: absolute;
+  left: 1315px;
+  top: 413px;
+  /* transform: scale(1.04);*/
+}
+
+#nagaland {
+  position: absolute;
+  left: 1432px;
+  top: 558px;
+  /* transform: scale(1.04);*/
+}
+#tripura {
+  position: absolute;
+  left: 1325px;
+  top: 738px;
+  /* transform: scale(1.04);*/
+}
+
+
+#mehalaya {
+    position: absolute;
+    left: 1225px;
+    top: 638px;
+    transform: scale(1.1);
+  }
+#manipur {
+  position: absolute;
+  left: 1410px;
+  top: 635px;
+  /* transform: scale(1.04);*/
+}
+#misoram {
+  position: absolute;
+  left: 1375px;
+  top: 725px;
+  /* transform: scale(1.04);*/
+}
+#gujarath {
+  position: absolute;
+  left: 30px;
+  top: 734px;
+}
+
+#maddiyaPradesh {
+  position: absolute;
+  left: 350px;
+  top: 615px;
+  transform: scaleX(1.05);
+}
+
+#jarkhand {
+  position: absolute;
+  left: 870px;
+  top: 700px;
+  transform: scale(1.01);
+}
+
+#westBengal {
+  position: absolute;
+  left: 1010px;
+  top: 580px;
+  /* transform: scaleX(1.01); */
+}
+
+#maharastra {
+  position: absolute;
+  left: 260px;
+  top: 901px;
+}
+
+#chandigar {
+  position: absolute;
+  left: 700px;
+  top: 783px;
+}
+
+#odisa {
+  position: absolute;
+  left: 760px;
+  top: 873px;
+}
+#karnadaka {
+  position: absolute;
+  left: 322px;
+  top: 1129px;
+  /* transform: scale(1); */
+}
+#thelungana {
+  position: absolute;
+  left: 525px;
+  top: 1035px;
+  transform: scaleX(1.08);
+}
+
+#andhraPrades {
+  position: absolute;
+  left: 488px;
+  top: 1072px;
+  transform: scaleX(1.02);
+}
+#kerala {
+  position: absolute;
+  left: 290px;
+  top: 1278px;
+}
+#tamilNadu {
+  position: absolute;
+  left: 458px;
+  top: 1435px;
+  transform: scale(1.02);
+}
+/* #tamilNadu:hover, #kerala:hover, #andhraPrades:hover, #thelungana:hover, #karnadaka:hover, #odisa:hover,
+  #chandigar:hover, #maharastra:hover, #westBengal:hover, #jarkhand:hover, #maddiyaPradesh:hover, #gujarath:hover, #misoram:hover, #manipur:hover, #mehalaya:hover, 
+#tripura:hover, #nagaland:hover, #arunachalPradesh:hover, #assam:hover, #sikkim:hover, #Behar:hover, #uttra:hover, #Rajasthan:hover, #haryana:hover, #uttrakhant:hover, 
+#punjab:hover, #himachelPradesh:hover, #kashmir:hover, #jammu:hover
+{
+    filter: drop-shadow( 0 0 0 #f8a100) ;
+    filter: drop-shadow(0 0 0 #f8a100);
+    z-index: 550;      
+} */
+
+
+/* #para {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-size: 25px;
+} */

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indian States</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body id="body">
+    <div id="main">
+      <div id="inpdiv">
+        <select name="states" id="selectState">
+          <option value="">Select State</option>
+          <option value="jammu">Jammu</option>
+          <option value="kashmir">Kashmir</option>
+          <option value="himachelPradesh">Himachel Pradesh</option>
+          <option value="punjab">Punjab</option>
+          <option value="uttrakhant">Utrakhant</option>
+          <option value="haryana">Haryana</option>
+          <option value="Rajasthan">Rajasthan</option>
+          <option value="uttra">Uttra Pradesh</option>
+          <option value="Behar">Behar</option>
+          <option value="sikkim">Sikkim</option>
+          <option value="assam">Assam</option>
+          <option value="arunachalPradesh">Arunachal Pradesh</option>
+          <option value="nagaland">Nagaland</option>
+          <option value="manipur">Manipur</option>
+          <option value="misoram">Misoram</option>
+          <option value="tripura">Tripura</option>
+          <option value="mehalaya">Mehalaya</option>
+          <option value="westBengal">West Bengal</option>
+          <option value="jarkhand">Jarkhand</option>
+          <option value="maddiyaPradesh">Maddiya Pradesh</option>
+          <option value="gujarath">Gujarath</option>
+          <option value="maharastra">Maharastra</option>
+          <option value="chandigar">Chandigar</option>
+          <option value="odisa">Odisa</option>
+          <option value="andhraPrades">Andhra Prades</option>
+          <option value="thelungana">Thelungana</option>
+          <option value="karnadaka">Karnadaka</option>
+          <option value="kerala">Kerala</option>
+          <option value="tamilNadu">TamilNadu</option>
+        </select>
+      </div>
+      <div id="main2 ">
+        <img id="jammu" src="./assets/images/1 Jammu.png" alt="" />
+        <img id="kashmir" src="./assets/images/2 kashmir.png" alt="" />
+        <img
+          id="himachelPradesh"
+          src="./assets/images/3 himachel pradesh.png"
+          alt=""
+        />
+        <img id="punjab" src="./assets/images/4 punjab.png" alt="" />
+        <img id="uttrakhant" src="./assets/images/5 uttrakhant.png" alt="" />
+        <img id="haryana" src="./assets/images/6 haryana.png" alt="" />
+        <img id="Rajasthan" src="./assets/images/7 Rajasthan.png" alt="" />
+        <img id="uttra" src="./assets/images/8 uttra pradesh.png" alt="" />
+        <img id="Behar" src="./assets/images/9 Behar.png" alt="" />
+        <img id="sikkim" src="./assets/images/10 sikkim.png" alt="" />
+        <img id="assam" src="./assets/images/11 assam.png" alt="" />
+        <img
+          id="arunachalPradesh"
+          src="./assets/images/12 arunachal pradesh.png"
+          alt=""
+        />
+        <img id="nagaland" src="./assets/images/13 nagaland.png" alt="" />
+        <img id="manipur" src="./assets/images/14 manipur.png" alt="" />
+        <img id="misoram" src="./assets/images/15 misoram.png" alt="" />
+        <img id="tripura" src="./assets/images/16 tripura.png" alt="" />
+        <img id="mehalaya" src="./assets/images/17 mehalaya.png" alt="" />
+        <img id="westBengal" src="./assets/images/18 west bengal.png" alt="" />
+        <img id="jarkhand" src="./assets/images/19 jarkhand.png" alt="" />
+        <img
+          id="maddiyaPradesh"
+          src="./assets/images/20 maddiya pradesh.png"
+          alt=""
+        />
+        <img id="gujarath" src="./assets/images/21 gujarath.png" alt="" />
+        <img id="maharastra" src="./assets/images/22 maharastra.png" alt="" />
+        <img id="chandigar" src="./assets/images/23 chandigar.png" alt="" />
+        <img id="odisa" src="./assets/images/24 odisa.png" alt="" />
+        <img
+          id="andhraPrades"
+          src="./assets/images/25 andhra prades.png"
+          alt=""
+        />
+        <img id="thelungana" src="./assets/images/26 thelungana.png" alt="" />
+        <img id="karnadaka" src="./assets/images/27 karnadaka.png" alt="" />
+        <img id="kerala" src="./assets/images/28 kerala.png" alt="" />
+        <img id="tamilNadu" src="./assets/images/29 tamil nadu.png" alt="" />
+      </div>
+    </div>
+    <script>
+      document.body.style.zoom = "50%";
+
+      let selectState = document.getElementById("selectState");
+      let selectVal1 = document.getElementById("selectState");
+
+      function reloadprop() {
+        if (selectVal1.length < 1) {
+        } else {
+        }
+        selectState.addEventListener("change", (event) => {
+          let selectState2 = document.getElementById("selectState").value;
+          let spr = "filter: drop-shadow( 0 0 0.75rem crimson); z-index: 50";
+          let selectVal2 = document.getElementById("selectState").value;
+          function foundit() {
+            // if (selectVal.length > 1) {
+            switch (selectState2) {
+              case "jammu":
+                document.getElementById("jammu").style.cssText = spr;
+                break;
+              case "kashmir":
+                document.getElementById("kashmir").style.cssText = spr;
+                break;
+              case "himachelPradesh":
+                document.getElementById("himachelPradesh").style.cssText = spr;
+                break;
+              case "punjab":
+                document.getElementById("punjab").style.cssText = spr;
+                break;
+              case "uttrakhant":
+                document.getElementById("uttrakhant").style.cssText = spr;
+                break;
+              case "haryana":
+                document.getElementById("haryana").style.cssText = spr;
+                break;
+              case "Rajasthan":
+                document.getElementById("Rajasthan").style.cssText = spr;
+                break;
+              case "uttra":
+                document.getElementById("uttra").style.cssText = spr;
+                break;
+              case "Behar":
+                document.getElementById("Behar").style.cssText = spr;
+                break;
+              case "sikkim":
+                document.getElementById("sikkim").style.cssText = spr;
+                break;
+              case "assam":
+                document.getElementById("assam").style.cssText = spr;
+                break;
+              case "arunachalPradesh":
+                document.getElementById("arunachalPradesh").style.cssText = spr;
+                break;
+              case "nagaland":
+                document.getElementById("nagaland").style.cssText = spr;
+                break;
+              case "manipur":
+                document.getElementById("manipur").style.cssText = spr;
+                break;
+              case "misoram":
+                document.getElementById("misoram").style.cssText = spr;
+                break;
+              case "tripura":
+                document.getElementById("tripura").style.cssText = spr;
+                break;
+              case "mehalaya":
+                document.getElementById("mehalaya").style.cssText = spr;
+                break;
+              case "westBengal":
+                document.getElementById("westBengal").style.cssText = spr;
+                break;
+              case "jarkhand":
+                document.getElementById("jarkhand").style.cssText = spr;
+                break;
+              case "maddiyaPradesh":
+                document.getElementById("maddiyaPradesh").style.cssText = spr;
+                break;
+              case "gujarath":
+                document.getElementById("gujarath").style.cssText = spr;
+                break;
+              case "maharastra":
+                document.getElementById("maharastra").style.cssText = spr;
+                break;
+              case "chandigar":
+                document.getElementById("chandigar").style.cssText = spr;
+                break;
+              case "odisa":
+                document.getElementById("odisa").style.cssText = spr;
+                break;
+              case "andhraPrades":
+                document.getElementById("andhraPrades").style.cssText = spr;
+                break;
+              case "thelungana":
+                document.getElementById("thelungana").style.cssText = spr;
+                break;
+              case "karnadaka":
+                document.getElementById("karnadaka").style.cssText = spr;
+                break;
+              case "kerala":
+                document.getElementById("kerala").style.cssText = spr;
+                break;
+              case "tamilNadu":
+                document.getElementById("tamilNadu").style.cssText = spr;
+                break;
+
+              default:
+                break;
+            }
+            // } else {
+            //   // return false
+            //   reloadprop();
+            // }
+          }
+          selectState.addEventListener("mouseenter", (event) => {
+            window.location.reload();
+          });
+          foundit();
+        });
+      }
+      reloadprop();
+    </script>
+  </body>
+</html>
